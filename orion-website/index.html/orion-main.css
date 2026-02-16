@@ -1,0 +1,354 @@
+/* ================= GLOBAL RESET ================= */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.brand-name {
+    color: #ffffff;
+    font-weight: 600;
+    font-size: 15px;
+}
+
+
+body {
+    font-family: 'Poppins', sans-serif;
+    background-color: #ffffff;
+    color: #222;
+    line-height: 1.6;
+}
+
+section {
+    padding: 60px 8%;
+}
+
+/* ================= NAVBAR ================= */
+.header {
+    background-color: #111;
+    padding: 15px 8%;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.brand {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.logo {
+    width: 200px;
+    .logo {
+    width: 40px;
+    background-color: white;
+    padding: 5px;
+    border-radius: 6px;
+    filter: drop-shadow(0 0 4px rgba(255, 255, 255, 0.6));
+}
+.services-section {
+    padding: 80px 10%;
+    background-color: #f8f9fb;
+}
+
+.section-title {
+    text-align: center;
+    font-size: 40px;
+    margin-bottom: 50px;
+    color: #111;
+}
+
+.services-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    gap: 30px;
+}
+
+.service-card {
+    background: white;
+    padding: 30px;
+    border-radius: 12px;
+    box-shadow: 0 10px 25px rgba(0,0,0,0.08);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.service-card:hover {
+    transform: translateY(-8px);
+    box-shadow: 0 18px 40px rgba(0,0,0,0.15);
+}
+
+.service-card h3 {
+    color: #fcad04;
+    margin-bottom: 15px;
+    font-size: 20px;
+}
+
+.service-card p {
+    font-size: 15px;
+    color: #555;
+}
+
+.operations {
+    background-color: #f4f4f4;
+}
+
+.equipment-grid {
+    display: flex;
+    gap: 20px;
+    margin-top: 30px;
+    flex-wrap: wrap;
+}
+
+.equipment-grid img {
+    width: 100%;
+    max-width: 320px;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 8px;
+    box-shadow: 0 6px 18px rgba(0,0,0,0.1);
+}
+
+}
+
+.equipment-grid img:hover {
+    transform: scale(1.03);
+}
+
+}
+
+.brand-name {
+    color: #ffffff;
+    font-weight: 600;
+    font-size: 15px;
+}
+
+.nav-links {
+    list-style: none;
+    display: flex;
+    gap: 25px;
+}
+
+.nav-links a {
+    text-decoration: none;
+    color: #ffffff;
+    font-weight: 500;
+    font-size: 14px;
+}
+
+.nav-links a:hover,
+.nav-links .active {
+    color: #ff8800;
+}
+
+/* ================= HERO ================= */
+.hero {
+    background-color: #1a1a1a;
+    color: #ffffff;
+    text-align: center;
+    padding: 90px 8%;
+}
+
+.hero h1 {
+    font-size: 40px;
+    margin-bottom: 15px;
+    font-weight: 700;
+}
+
+.hero p {
+    font-size: 17px;
+    max-width: 650px;
+    margin: auto;
+    opacity: 0.9;
+}
+
+/* ================= BUTTONS ================= */
+.hero-buttons {
+    margin-top: 30px;
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+}
+
+.btn {
+    padding: 12px 22px;
+    border-radius: 6px;
+    text-decoration: none;
+    font-weight: 600;
+    font-size: 14px;
+}
+
+.primary-btn {
+    background-color: #ef9104;
+    color: #ffffff;
+}
+
+.primary-btn:hover {
+    background-color: #ef9104;
+}
+
+.secondary-btn {
+    border: 2px solid #ef9104;
+    color: #ef9104;
+}
+
+.secondary-btn:hover {
+    background-color: #ef9104;
+    color: #ffffff;
+}
+
+/* ================= SERVICES PREVIEW ================= */
+.section-header {
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.section-header h2 {
+    font-size: 30px;
+    margin-bottom: 8px;
+}
+
+.section-header p {
+    color: #555;
+}
+
+.service-grid {
+    display: flex;
+    gap: 25px;
+    flex-wrap: wrap;
+}
+
+.service-card {
+    flex: 1;
+    min-width: 250px;
+    background-color: #ffffff;
+    padding: 28px;
+    border-radius: 10px;
+    box-shadow: 0 6px 18px rgba(0,0,0,0.08);
+}
+
+.service-card h3 {
+    margin-bottom: 12px;
+    color: #ef9104;
+}
+
+.service-card p {
+    font-size: 15px;
+    color: #444;
+}
+
+.service-card:hover {
+    transform: translateY(-5px);
+}
+
+/* ================= WHY ORION ================= */
+.why-orion {
+    background-color: #f4f4f4;
+    text-align: center;
+}
+
+.why-content {
+    max-width: 750px;
+    margin: auto;
+}
+
+.why-content h2 {
+    font-size: 28px;
+    margin-bottom: 15px;
+}
+
+.why-list {
+    list-style: none;
+    margin-top: 20px;
+}
+
+.why-list li {
+    margin: 8px 0;
+    font-weight: 500;
+}
+
+/* ================= CTA ================= */
+.cta {
+    background-color: #ef9104;
+    color: #ffffff;
+    text-align: center;
+    padding: 50px 8%;
+}
+
+.cta h2 {
+    font-size: 28px;
+    margin-bottom: 10px;
+}
+
+.cta p {
+    margin-bottom: 20px;
+    font-size: 15px;
+}
+.client-list ul {
+    margin-top: 20px;
+    padding-left: 20px;
+}
+
+.client-list li {
+    margin: 8px 0;
+    font-weight: 500;
+    color: #333;
+}
+
+/* ================= CONTENT PAGES ================= */
+.content {
+    max-width: 850px;
+    margin: auto;
+}
+
+.content h2 {
+    margin-top: 30px;
+    color: #ef9104;
+}
+
+.content p {
+    margin-top: 10px;
+    font-size: 15px;
+}
+
+/* ================= WHATSAPP BUTTON ================= */
+.whatsapp-btn {
+    display: inline-block;
+    margin-top: 15px;
+    padding: 12px 18px;
+    background-color: #25D366;
+    color: white;
+    text-decoration: none;
+    border-radius: 6px;
+    font-weight: 600;
+}
+
+.whatsapp-btn:hover {
+    opacity: 0.9;
+}
+
+/* ================= FOOTER ================= */
+.footer {
+    background-color: #111;
+    color: #ffffff;
+    text-align: center;
+    padding: 25px 8%;
+    font-size: 14px;
+}
+
+/* ================= RESPONSIVE ================= */
+@media (max-width: 900px) {
+    .service-grid {
+        flex-direction: column;
+    }
+
+    .hero h1 {
+        font-size: 30px;
+    }
+
+    .hero-buttons {
+        flex-direction: column;
+    }
+}
